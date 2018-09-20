@@ -1,1 +1,5 @@
 This file will go over what is needed for a Windows window using WNDCLASS.
+  
+  1. Populate a WNDCLASS struct with your desired window traits
+  2. Register the WNDCLASS with windows using RegisterClass
+  3. Create the window using CreateWindow
