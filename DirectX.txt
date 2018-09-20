@@ -1,1 +1,6 @@
 This file will go over what needs to happen to use DirectX to draw to the screen.
+  1. Acquire an interface for Direct3d Hardware (GPU)     
+      ID3D11Device and ID3D11DeviceContext  ID3D11Device is mostly used for setup and iD3D11DeviceContext is used for frame by frame calls.
+  2. Maintain pointers to both Direct3d Device and Device Context and store them as class-level variables in your device resources class.
+  3. Create Swapchain using a factory(?) 
+  4. 
