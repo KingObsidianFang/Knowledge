@@ -1,0 +1,1 @@
+This file will go over what needs to happen to use DirectX to draw to the screen.
