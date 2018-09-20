@@ -1,0 +1,1 @@
+This file will go over what is needed for a Windows window using WNDCLASS.
